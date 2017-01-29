@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  brand: MyString
+  hardness: MyString
+  flavor: MyString
+  made_by: MyString
+
+two:
+  brand: MyString
+  hardness: MyString
+  flavor: MyString
+  made_by: MyString

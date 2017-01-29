@@ -1,0 +1,8 @@
+<h1>Here is all of our candies!</h1>
+
+<% @candies.each do |candy| %>
+  <p>Candy Brand: <%= candy.brand %></p>
+  <p>Candy Hardness: <%= candy.hardness %>   (1=sofest---10=hardest)</p>
+  <p>Candy Flavor: <%= candy.flavor %></p>
+  <p>Candy Made By: <%= candy.made_by %></p>
+<% end %>
